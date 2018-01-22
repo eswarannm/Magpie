@@ -19,6 +19,9 @@ public class StringExplorer {
 		System.out.println("After toLowerCase(), sample = " + sample);
 
 		// Try other methods here:
+		//This version of index of differs because it searches backwards starting at the specified index.
+		int notFoundPsn = sample.indexOf("slow"); 
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
 
 	}
 
